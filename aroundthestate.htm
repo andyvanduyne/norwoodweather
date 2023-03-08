@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="<#location> weather data" />
+<meta name="keywords" content="Cumulus, <#location> weather data, weather, data, weather station" />
+<title>Norwood Weather</title>
+<link href="http://www.andyvanduyne.net/weather/nwx.css" rel="stylesheet" type="text/css" />
+<META HTTP-EQUIV="refresh" CONTENT="120">
+<div class="header">
+<center><img src="http://www.andyvanduyne.net/weather/images/TopBanner.jpg" width="550" height="60"></center>
+</div>
+<div class="sidenav">
+<p class="current">
+<center><#time></center><br>
+<center><h1>Currently:</center></h1><br>
+<#temp>&nbsp;<#tempunit><br>
+Feels like&nbsp;<#apptemp>&nbsp;<#tempunit><br>
+<#wspeed>&nbsp;<#windunit>&nbsp;<#wdir>&nbsp;<br><#beaudesc><br>
+<br>
+
+<!-- Almanac -->
+<center><h1>The Almanac</h1></center><br>
+<center><#year>-<#month>-<#day></center><br>
+Dawn:&nbsp;<#dawn><br>
+Sunrise:&nbsp;<#sunrise><br>
+Moonrise:&nbsp;<#moonrise><br>
+Dusk:&nbsp;<#dusk><br>
+Sunset:&nbsp;<#sunset><br>
+Moonset:&nbsp;<#moonset><br>
+Daylight:&nbsp;<#daylightlength><br>
+Day length:&nbsp;<#daylength><br>
+<table width=200px>
+<tr><td><font color="white"><font size = "2">Moon Phase:<br><#moonphase></td>
+<td><img src="images/moon.bmp" alt="Moon" style="margin: 0px 10px;horizontal-align:left background-color: #BBBBFF" /></td></tr>
+</table>
+</p> 
+
+<!-- END Almanac -->
+</div>
+<div class="rightside">
+<table class="hotlinks">
+<tr><td><a href="http://www.andyvanduyne.net/weather/index.htm" >Forecast</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/advisory.htm" >Advisories</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/closings.htm" >Cancellations</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/ncroundup.htm" >North Country</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/state.htm" >NYS</a></td></tr>
+<br>
+<tr><td><center><h1>Reports</center></h1></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/today.htm" >Today</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/yesterday.htm" >Yesterday</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/thismonth.htm" >Month</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/thisyear.htm" >Year</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/record.htm" >Records</a></td></tr>
+<br>
+<tr><td><center><h1>Images</center></h1></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/radar.htm" >Radar</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/usaoutlook.htm" >US Outlook</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/goes.htm" >Earth</a></td></tr>
+</table>
+</div>
+<br><br><br>
+<center>
+
+<!--Everything above this line is contained in forecastpart1.txt -->
+<center><div class='content'><center><table class = 'bland'><tr><td><center><img src='http://andyvanduyne.net/weather/images/state.gif'</center><td><tr><tr><td>638 AM EST Mon Dec 30 2019</td></tr><tr><td>ROWS INCLUDE...</td></tr><tr><td>   Daily predominant daytime weather 6AM-6PM</td></tr><tr><td>   Forecast temperatures...early morning low/daytime high</td></tr><tr><td>         Probability of precipitation nighttime 6PM-6AM/daytime 6AM-6PM</td></tr><tr><td>          - indicates temperatures below zero</td></tr><tr><td>         MM indicates missing data</td></tr><tr><td><blandbox>    FCST     FCST     FCST     FCST     FCST     FCST     FCST     </blandbox><td><tr><tr><td><blandbox>    Today    Tue      Wed      Thu      Fri      Sat      Sun      </blandbox><td><tr><tr><td><blandbox>    Dec 30   Dec 31   Jan 01   Jan 02   Jan 03   Jan 04   Jan 05   </blandbox><td><tr><state><tr><td><region> ...Central New York.....                                             </region><td><tr>
+<tr><td><locale>    Binghamton, NY                                                    </locale><td><tr>
+<tr><td><specific>    Rain     Snoshwr  Mocldy   Sunny    Rain     Mocldy   Mocldy      </specific><td><tr>
+<tr><td><specific>      /39    30/38    26/34    25/41    35/44    35/42    28/38       </specific><td><tr>
+<tr><td><specific>      /80    50/60    40/30    10/10    50/60    60/40    40/40       </specific><td><tr>
+<tr><td><region> ...East Central New York.....                                        </region><td><tr>
+<tr><td><locale>    Albany, NY                                                        </locale><td><tr>
+<tr><td><specific>    Rain     Snoshwr  Ptcldy   Ptcldy   Rain     Mocldy   Mocldy      </specific><td><tr>
+<tr><td><specific>      /36    32/39    29/37    27/40    32/41    35/46    31/39       </specific><td><tr>
+<tr><td><specific>      /100   80/50    40/20    10/00    20/60    60/40    30/30       </specific><td><tr>
+<tr><td><locale>    Cobleskill, NY                                                    </locale><td><tr>
+<tr><td><specific>    Fzrain   Snoshwr  Mocldy   Ptcldy   Rain     Mocldy   Mocldy      </specific><td><tr>
+<tr><td><specific>      /34    30/37    27/34    25/40    33/41    34/43    29/37       </specific><td><tr>
+<tr><td><specific>      /90    70/60    50/30    30/10    30/60    60/40    30/40       </specific><td><tr>
+<tr><td><locale>    Gloversville, NY                                                  </locale><td><tr>
+<tr><td><specific>    Fzrain   Snoshwr  Mocldy   Ptcldy   Rnsnow   Snoshwr  Snoshwr     </specific><td><tr>
+<tr><td><specific>      /32    30/36    25/33    24/37    30/37    31/40    27/35       </specific><td><tr>
+<tr><td><specific>      /100   80/60    60/40    40/00    30/60    60/50    40/50       </specific><td><tr>
+<tr><td><locale>    Saratoga Spgs, NY                                                 </locale><td><tr>
+<tr><td><specific>    Fzrain   Snoshwr  Ptcldy   Ptcldy   Rnsnow   Mocldy   Ptcldy      </specific><td><tr>
+<tr><td><specific>      /33    29/37    26/36    25/39    30/40    33/43    29/38       </specific><td><tr>
+<tr><td><specific>      /100   80/60    50/30    20/00    20/60    60/40    30/40       </specific><td><tr>
+<tr><td><locale>    Tannersville, NY                                                  </locale><td><tr>
+<tr><td><specific>    Fzrain   Fzdrzl   Ptcldy   Sunny    Rain     Ptcldy   Mocldy      </specific><td><tr>
+<tr><td><specific>      /32    30/37    26/33    23/39    32/40    35/43    28/37       </specific><td><tr>
+<tr><td><specific>      /90    70/40    30/20    20/10    30/60    60/40    30/30       </specific><td><tr>
+<tr><td><region> ...Northeast New York.....                                           </region><td><tr>
+<tr><td><locale>    Glens Falls, NY                                                   </locale><td><tr>
+<tr><td><specific>    Fzrain   Snoshwr  Ptcldy   Ptcldy   Rnsnow   Mocldy   Mocldy      </specific><td><tr>
+<tr><td><specific>      /33    28/36    24/37    23/38    28/39    32/42    27/38       </specific><td><tr>
+<tr><td><specific>      /100   90/70    50/30    20/00    20/60    60/40    30/40       </specific><td><tr>
+<tr><td><locale>    Massena, NY                                                       </locale><td><tr>
+<tr><td><specific>    Fzrain   Snoshwr  Snoshwr  Ptcldy   Rnsnow   Snoshwr  Mocldy      </specific><td><tr>
+<tr><td><specific>      /34    29/36    26/36    23/37    30/39    30/40    24/34       </specific><td><tr>
+<tr><td><specific>      /100   80/80    70/50    20/10    20/60    60/50    40/40       </specific><td><tr>
+<tr><td><locale>    Saranac Lake, NY                                                  </locale><td><tr>
+<tr><td><specific>    Fzrain   Snoshwr  Snoshwr  Ptcldy   Rnsnow   Snoshwr  Mocldy      </specific><td><tr>
+<tr><td><specific>      /31    27/34    24/31    20/35    28/39    30/39    23/33       </specific><td><tr>
+<tr><td><specific>      /100   80/80    80/70    40/10    20/60    60/50    50/40       </specific><td><tr>
+<tr><td><locale>    Speculator, NY                                                    </locale><td><tr>
+<tr><td><specific>    Fzrain   Snoshwr  Snoshwr  Ptcldy   Rnsnow   Snoshwr  Snoshwr     </specific><td><tr>
+<tr><td><specific>      /31    27/35    24/31    22/36    28/38    31/38    25/34       </specific><td><tr>
+<tr><td><specific>      /100   80/70    60/60    50/10    30/60    60/50    40/50       </specific><td><tr>
+<tr><td><region> ...Southeast New York.....                                           </region><td><tr>
+<tr><td><locale>    Kingston, NY                                                      </locale><td><tr>
+<tr><td><specific>    Rain     Drzl     Ptcldy   Sunny    Rain     Ptcldy   Ptcldy      </specific><td><tr>
+<tr><td><specific>      /36    32/44    29/39    26/44    33/42    36/49    31/42       </specific><td><tr>
+<tr><td><specific>      /90    70/40    30/10    10/10    30/60    60/40    30/30       </specific><td><tr>
+<tr><td><locale>    Poughkeepsie, NY                                                  </locale><td><tr>
+<tr><td><specific>    Rain     Drzl     Ptcldy   Sunny    Rnsnow   Ptcldy   Ptcldy      </specific><td><tr>
+<tr><td><specific>      /37    32/45    29/39    27/44    33/45    38/50    32/43       </specific><td><tr>
+<tr><td><specific>      /100   60/30    20/10    00/10    30/60    60/40    30/20       </specific><td><tr>
+</table> </center><br></div>

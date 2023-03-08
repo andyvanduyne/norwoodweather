@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.mainlink {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 10pt;
+        color: #111111;
+        text-align: left;
+        font-weight: bold;
+        margin-right: 100px;
+  	margin-left: 100px;
+	white-space:pre-wrap;
+}
+
+.local {
+ 	margin: auto;
+  	width: 60%;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size: 12pt;
+        color: #111111;
+        text-align: left;
+        font-weight: bold;
+      	white-space:pre-wrap;
+        
+}
+
+
+.statelist {
+        margin: auto;
+  	width: 70%;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 13pt;
+        color: #111111;
+        text-align: left;
+        font-weight: bold;
+        white-space:pre-wrap;
+}

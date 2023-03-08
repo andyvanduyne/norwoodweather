@@ -1,0 +1,94 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content=" weather data" />
+<meta name="keywords" content="Cumulus,  weather data, weather, data, weather station" />
+<title>Norwood Weather</title>
+<link href="http://www.andyvanduyne.net/weather/nwx.css" rel="stylesheet" type="text/css" />
+<META HTTP-EQUIV="refresh" CONTENT="240">
+</META>
+</head>
+<div class="header">
+<table class="toptable">
+        <colgroup>
+            <col style="width: 532px" />
+            <col style="width: 50px;" />
+            <col style="width: 50px;" />
+            <col style="width: 50px;" />
+            <col style="width: 100%;" />
+        </colgroup>
+<tr>
+
+<td><a href="http://www.andyvanduyne.net/weather/about.htm"><img src="http://www.andyvanduyne.net/weather/images/TopBanner.jpg" width="530" height="55"></a></td>
+<td style="text-align:left"> </td><td><a href='http://www.andyvanduyne.net/weather/advisory.htm' ><img src='http://andyvanduyne.net/weather/images/advfl.gif'></a></td><td><a href='http://www.andyvanduyne.net/weather/closings.htm' ><img src='http://andyvanduyne.net/weather/images/clofl.gif'></a></td><td><span style="float:right"><tinytimewhite><i><b>Fortune: </b></i>Isn't there something else you should be working on right now?</tinytimewhite></span></td>
+</tr>
+</table>
+</div>
+<div class="sidenav">
+<span><center><tinytimewhite>15:40 on 14 February 2020</tinytimewhite></center></span>
+<table class="lefty">
+<caption>Currently:</caption>
+<tr><td><center><h1>6.0&deg;F</h1></center></td></tr>
+<tr><td>Feels like&nbsp;-0.6&nbsp;&deg;F</td></tr>
+<tr><td>Wind Chill&nbsp;6.0&deg;F</td></tr>
+<tr><td>Temp Trend&nbsp;+0.1&deg;F/hr.</td></tr>
+<tr><td>Winds:&nbsp;0.0&nbsp;mph&nbsp;SE&nbsp;</td></tr>
+<tr><td>Humidity:&nbsp;53%</td></tr>
+<tr><td>Dew Point:&nbsp;-7.5&deg;F</td></tr>
+<tr><td>Barometer:&nbsp;30.550&nbsp;Rising</td></tr>
+</table>
+<!-- Almanac -->
+<table class="lefty"><caption>Almanac</caption>
+<tr><td>Dawn:&nbsp;06:32</td></tr>
+<tr><td>Sunrise:&nbsp;07:03</td></tr>
+<tr><td>Moonrise:&nbsp;-----</td></tr>
+<tr><td>Sunset:&nbsp;17:26</td></tr>
+<tr><td>Dusk:&nbsp;17:57</td></tr>
+<tr><td>Daylight:&nbsp;11:25</td></tr>
+<tr><td>Day length:&nbsp;10:23</td></tr>
+<tr><td>Moonrise:&nbsp;-----</td></tr>
+<tr><td>Moonset:&nbsp;10:11</td></tr>
+<tr><td><table width=200px>
+<tr><td><font size = "2">Moon Phase:<br>Waning Gibbous</td>
+<td><img src="images/moon.bmp" alt="Moon" style="margin: 0px 10px;horizontal-align:left background-color: #BBBBFF" /></td></tr>
+</table>
+</table>
+</p> 
+
+<!-- END Almanac -->
+</div>
+<div class="rightside">
+<table class="hotlinks">
+<tr><td><a href="http://www.andyvanduyne.net/weather/index.htm" >Forecast</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/advisory.htm" >Advisories</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/closings.htm" >Cancellations</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/ncroundup.htm" >North Country</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/state.htm" >NYS</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/snowfall.htm" >Snowfall</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/usaoutlook.htm" >US Outlook</a></td></tr>
+</table>
+<table class="hotlinks">
+<caption>reports</caption>
+<tr><td><a href="http://www.andyvanduyne.net/weather/today.htm" >Today</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/yesterday.htm" >Yesterday</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/thismonth.htm" >Month</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/thisyear.htm" >Year</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/record.htm" >Records</a></td></tr>
+</table>
+<table class="hotlinks">
+<caption>Images</caption>
+<tr><td><a href="http://www.andyvanduyne.net/weather/wxcam.htm" >Weather Cams</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/radar.htm" >Radar</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/graphs.htm" >Graphs</a></td></tr>
+<tr><td><a href="http://www.andyvanduyne.net/weather/goes.htm" >Earth</a></td></tr>
+</table>
+<table class="hotlinks">
+<caption>Elsewhere...</caption>
+<tr><td><a href="http://www.andyvanduyne.net" target="_blank"><img src="http://www.andyvanduyne.net/weather/images/homeicon.png" width="18" height="18"></a></td>
+<td><a href="http://www.facebook.com/andyvanduyne" target="_blank"><img src="http://www.andyvanduyne.net/weather/images/fbicon.png" width="18" height="18"></a></td></tr>
+<!-- <tr><td><tinytimewhite><i>Your fortune:</i><br> Isn't there something else you should be working on right now?</td><tr>-->
+</table>
+</div>
+
+<!--Everything above this line is contained in forecastpart1.src -->
+<div class='content'><center><table class='bland'><tr><td> </td></tr><tr><td><center><h1>Home, Sweet Home, as seen by GOES-16</j1></center></td></tr><tr><td> </td></tr><tr><td><center><tinytime>Full disk from GOES16_FD_FC_20200214T200001Z Recieved at 20:00:01 UTC</tinytime></center><td><tr><tr><td><center><img src='http://www.andyvanduyne.net/weather/images/goespicsm.jpg' width='600'></center></td></tr><tr><td><center><tinytime>(For a -BIG- version of this pic, click <a href='http://www.andyvanduyne.net/weather/images/goespiccolorbig.jpg' target='_blank'>HERE.)</a></center></tinytime><br><tr><td> </td></tr><tr><td><center><tinytime>NE Closeup from GOES16_FD_FC_20200214T200001Z Recieved at 20:00:01 UTC</tinytime></center><td><tr><tr><td><center><img src='http://www.andyvanduyne.net/weather/images/goescropped.jpg' width='600'></center></td></tr><tr><td> </td></tr><tr><td><center><tinytime>Full disk from GOES16_FD_CH07_enhanced_20200214T200001Z Recieved at 20:00:01 UTC</tinytime></center><td><tr><tr><td><center><img src='http://www.andyvanduyne.net/weather/images/goespicsmbw.jpg' width='600'></center></td></tr><tr><td><center><tinytime>(For a -BIG- version of this pic, click <a href='http://www.andyvanduyne.net/weather/images/goespicbwbig.jpg' target='_blank'>HERE.)</a></center></tinytime><br><tr><td> </td></tr><tr><td><center><tinytime>NE Closeup from GOES16_FD_CH07_enhanced_20200214T200001Z Recieved at 20:00:01 UTC</tinytime></center><td><tr><tr><td><center><img src='http://www.andyvanduyne.net/weather/images/goescroppedbw.jpg' width='600'></center></td></tr></center></table></div><br>
